@@ -14,8 +14,8 @@ li:hover {
 }
 li {
     background:rgb(255, 211, 211);
-    display: inline-flex;
-    width: 10%;
+    display: grid;
+    width: 5%;
 
 }
 .tab {
