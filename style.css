@@ -71,3 +71,12 @@ li {
     border: 1px solid #ccc;
     border-top: none;
 }
+th, td {
+    border-style: inset;
+    padding: 15px;
+}
+table {
+    border-spacing: 10px;
+}           
+tr:hover {background-color: #D6EEEE;}
+  
