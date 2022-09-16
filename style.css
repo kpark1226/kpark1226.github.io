@@ -87,6 +87,10 @@ tr:hover {background-color: #D6EEEE;}
     color:rgb(197, 154, 154)
 }
 
+a {
+    color: blue
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         background-color:rgb(197, 154, 154)
