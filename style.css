@@ -10,15 +10,17 @@ body {
     margin: 0px;
 }
 li:hover {
-    background: red;
+    background: rgb(197, 154, 154);
 }
 li {
-    background:rgb(255, 211, 211);
+    color: purple;
+    background:rgb(253, 233, 233);
     display: grid;
     width: 5%;
 
 }
 .tab {
+    color: blue;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
@@ -26,8 +28,8 @@ li {
     justify-content: center;
 }
 .tablink {
+    color: blue;
     background-color: #555;
-    color: white;
     float: left;
     border: none;
     outline: none;
@@ -35,6 +37,10 @@ li {
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+}
+
+.tablinks {
+    color: rgb(42, 40, 40)
 }
 
 .tab button {
@@ -61,10 +67,7 @@ li {
 .tab button.active {
     background-color: #ccc
 }
-#London {background-color:red;}
-    #Paris {background-color:green;}
-    #Tokyo {background-color:blue;}
-    #Oslo {background-color:orange;}
+
 .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -80,3 +83,12 @@ table {
 }           
 tr:hover {background-color: #D6EEEE;}
   
+#korea {
+    color:rgb(197, 154, 154)
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color:rgb(197, 154, 154)
+    }
+}
